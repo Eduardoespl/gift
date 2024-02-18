@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Single+Day&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button{
+    width: 160px;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15);
+    font-family: 'Single Day', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F27EA9;
+}
+
+p{
+    font-family: 'Protest Strike', sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.titulo{
+    font-family: 'Protest Riot', cursive;
+    font-size: 4rem;
+    margin-top: 2rem;
+    color: #fff;
+    letter-spacing: 3px;
+    margin-bottom: 1rem;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 400px;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    width: 70%;
+}
+
+#feliz{
+    background-color: #faec45;
+    color: #000;
+}
+
+#triste{
+    background-color: #002b7d;
+    color: #fff;
+}
+
+#enojada{
+    background-color: #ff0000;
+    color: #fff;
+}
+
+#cansada{
+    background-color: #000;
+    color: #fff;
+}
+
+#aburrida{
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+#estresada{
+    background-color: #bfb217;
+    color: #fff;
+}
